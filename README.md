@@ -19,6 +19,7 @@ The data points we are collecting are as follows (* denotes a mandatory field):
 ## To-do:
 
 - design data structure
+  - need to be able to relate categories to places. Should this be one-to-many or many-to-many?
 - create instructions for forking and editing data structure
 - protect `main` branch
 - add clear instructions about what _not_ to add, e.g. personal data
