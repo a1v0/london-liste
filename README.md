@@ -26,12 +26,17 @@ The data points we are collecting are as follows (* denotes a mandatory field):
 
 To begin, you need to create a fork of the repo. On the [repo homepage](https://github.com/a1v0/london-liste), look for the green button near the top that says "Code". Just above and to the right is a button called "Fork".
 
-## To-do:
+## To-do
 
 - design data structure
-  - need to be able to relate categories to places. Should this be one-to-many or many-to-many?
+  - need to be able to relate categories to places and types
+    - do we need any other relational structures?
+  - how do we assign a unique and permanent slug to each place?
+    - I think it'll be OK, for now, to do a manual check for duplicates before committing a new piece of data
 - create instructions for forking and editing data structure
 - ~~protect `main` branch~~
 - add clear instructions about what _not_ to add, e.g. personal data
 - get colour scheme
 - create basic design and discuss with stakeholders
+- 404 page
+- favicon
