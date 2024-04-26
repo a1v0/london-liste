@@ -13,7 +13,11 @@ The data points we are collecting are as follows (* denotes a mandatory field):
 - Website
 - Approximate cost*
 - Type/category (e.g. restaurant, museum)
+  - we need to come up with a definitive list of types, rather than allowing free user input, so that it's easy to filter on type
+  - should a user be able to set multiple values here?
 - Location/area*
+  - we need to come up with a definitive list of areas, rather than allowing free user input, so that it's easy to filter on areas
+  - should a user be able to set multiple values here?
 - [anything else?]
 
 ## How to use this repo
