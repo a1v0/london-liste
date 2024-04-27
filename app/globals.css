@@ -9,6 +9,13 @@
 		@apply box-border;
 	}
 
+	.clear-gutters {
+		@apply mx-2;
+		@apply md:mx-auto;
+		@apply my-0;
+		@apply max-w-gutter;
+	}
+
 	nav ul li {
 		@apply inline-block;
 		@apply list-none;

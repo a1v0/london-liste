@@ -8,7 +8,11 @@ module.exports = {
 	theme: {
 		fontFamily: { fraktur: ["UnifrakturMaguntia"] },
 		colors: { emerald: "#004d24" },
-		extend: {},
+		extend: {
+			maxWidth: {
+				gutter: "768px",
+			},
+		},
 	},
 	plugins: [],
 };
