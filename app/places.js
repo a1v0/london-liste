@@ -26,7 +26,7 @@ exports.places = [
 
      */
 	{
-		slug: "", // leave this blank
+		slug: "osterley",
 		name: "Osterley House",
 		keyFacts: [
 			"Pristine Georgian country house",
@@ -40,5 +40,6 @@ exports.places = [
 		website:
 			"https://www.nationaltrust.org.uk/visit/london/osterley-park-and-house",
 	},
+
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 ];
