@@ -1,7 +1,14 @@
-exports.getPlacesOfType = (type, places) => {
-	const placesOfType = places.filter((place) => {
-		return place.type === type;
-	});
+exports.getPlaceTypes = (places) => {
+	const placeTypes = {};
 
-	return placesOfType;
+	for (let place in places) {
+		const type = place.type;
+		if (placeTypes[type] === undefined) {
+			placeTypes[type] = [];
+		}
+
+		placeTypes[type].push(place);
+	}
+
+	return placeTypes;
 };
