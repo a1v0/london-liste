@@ -1,4 +1,5 @@
 import "./globals.css";
+import Header from "./Header";
 
 export const metadata = {
 	title: "London-Liste",
@@ -19,7 +20,12 @@ export default function RootLayout({ children }) {
 					rel="stylesheet"
 				/>
 			</head>
-			<body>{children}</body>
+			<body>
+				<div>
+					<Header />
+					<div>{children}</div>
+				</div>
+			</body>
 		</html>
 	);
 }
