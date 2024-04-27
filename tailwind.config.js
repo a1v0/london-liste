@@ -6,7 +6,7 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
-		fontFamily: { serif: ["Bodoni Moda", "serif"] },
+		fontFamily: { fraktur: ["UnifrakturMaguntia"] },
 		colors: { emerald: "#004d24" },
 		extend: {},
 	},
