@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 export default function Header() {
 	return (
-		<header className="flex">
+		<header className="flex clear-gutters">
 			<Logo />
 			<Nav />
 		</header>
