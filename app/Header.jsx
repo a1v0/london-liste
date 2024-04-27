@@ -3,9 +3,9 @@ import Nav from "./Nav";
 
 export default function Header() {
 	return (
-		<div>
+		<header className="flex">
 			<Logo />
 			<Nav />
-		</div>
+		</header>
 	);
 }

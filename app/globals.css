@@ -8,4 +8,9 @@
 		@apply p-0;
 		@apply box-border;
 	}
+
+	nav ul li {
+		@apply inline-block;
+		@apply list-none;
+	}
 }
