@@ -1,5 +1,6 @@
 import "./globals.css";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export const metadata = {
 	title: "London-Liste",
@@ -21,9 +22,10 @@ export default function RootLayout({ children }) {
 				/>
 			</head>
 			<body>
-				<div>
+				<div className="flex min-h-screen flex-col items-stretch justify-between">
 					<Header />
-					<div>{children}</div>
+					<div className="flex grow flex-col">{children}</div>
+					<Footer />
 				</div>
 			</body>
 		</html>
