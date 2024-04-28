@@ -6,25 +6,33 @@ export default function Nav(props) {
 
 	return (
 		<nav>
-			<button
-				onClick={() => {
-					props.setShowMenu(!props.showMenu);
-				}}
-				className="text-[white] h-full p-2 flex items-center font-bold border-l-[white] border-l-2"
+			<div
+				className={`h-full border-y-4 ${
+					props.showMenu
+						? "border-hidden bg-light-grey"
+						: "border-solid border-y-brand-blue hover:border-b-[white] hover:border-t-brand-blue"
+				}`}
 			>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					className="mr-2 h-4 w-4"
-					viewBox="0 0 16 16"
+				<button
+					onClick={() => {
+						props.setShowMenu(!props.showMenu);
+					}}
+					className={` h-full p-2 flex items-center font-bold border-x-2 ${props.showMenu ? "text-[black] border-x-[black]" : "text-[white] border-x-[white]"}`}
 				>
-					<path
-						fillRule="evenodd"
-						fill="white"
-						d={props.showMenu ? upChevronPath : downChevronPath}
-					/>
-				</svg>
-				Menu
-			</button>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						className="mr-2 h-4 w-4"
+						viewBox="0 0 16 16"
+					>
+						<path
+							fillRule="evenodd"
+							fill={props.showMenu ? "black" : "white"}
+							d={props.showMenu ? upChevronPath : downChevronPath}
+						/>
+					</svg>
+					Menu
+				</button>
+			</div>
 		</nav>
 	);
 }
