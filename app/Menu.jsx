@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Menu() {
 	return (
-		<div className="bg-[orange]">
+		<div className="bg-light-grey">
 			<section className="clear-gutters">
 				<ul>
 					<Link href="#">
