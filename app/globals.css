@@ -27,8 +27,16 @@
 		@apply hover:bg-[white];
 	}
 
+	#menu-items a {
+		@apply no-underline;
+	}
+
 	#menu-items h2 {
 		@apply m-0;
+	}
+
+	a {
+		@apply underline;
 	}
 
 	h1,
