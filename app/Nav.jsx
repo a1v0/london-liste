@@ -18,6 +18,7 @@ export default function Nav(props) {
 						props.setShowMenu(!props.showMenu);
 					}}
 					className={`h-full p-2 flex items-center font-bold border-x-2 ${props.showMenu ? "text-[black] border-x-[black]" : "text-[white] border-x-[white]"}`}
+					aria-label="Toggle menu"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
