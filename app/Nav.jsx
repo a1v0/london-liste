@@ -1,16 +1,4 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
-
-export default function Nav() {
-	const [showMenu, setShowMenu] = useState(false);
-
-	const pathname = usePathname();
-	useEffect(() => {
-		setShowMenu(false);
-	}, [pathname]);
-
+export default function Nav(props) {
 	const downChevronPath =
 			"M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z",
 		upChevronPath =
@@ -20,9 +8,9 @@ export default function Nav() {
 		<nav>
 			<button
 				onClick={() => {
-					setShowMenu(!showMenu);
+					props.setShowMenu(!props.showMenu);
 				}}
-				className="flex h-full w-full items-center border-x-2 border-x-softer-black px-4 py-1 text-lg"
+				className="text-[white] h-full p-2 flex items-center font-bold border-l-[white] border-l-2"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +19,8 @@ export default function Nav() {
 				>
 					<path
 						fillRule="evenodd"
-						d={showMenu ? upChevronPath : downChevronPath}
+						fill="white"
+						d={props.showMenu ? upChevronPath : downChevronPath}
 					/>
 				</svg>
 				Menu
