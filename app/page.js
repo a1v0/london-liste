@@ -1,48 +1,55 @@
 export default function Home() {
 	return (
 		<main>
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
-			page content lorem ipsum dolor sit amet page content lorem ipsum
-			dolor sit amet page content lorem ipsum dolor sit amet page content
-			lorem ipsum dolor sit amet page content lorem ipsum dolor sit amet
+			<article className="clear-gutters">
+				page content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet page content lorem ipsum
+				dolor sit amet page content lorem ipsum dolor sit amet page
+				content lorem ipsum dolor sit amet
+			</article>
 		</main>
 	);
 }

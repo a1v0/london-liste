@@ -7,7 +7,7 @@ module.exports = {
 	],
 	theme: {
 		fontFamily: { fraktur: ["UnifrakturMaguntia"] },
-		colors: { emerald: "#004d24" },
+		colors: { "brand-blue": "#4175be", "light-grey": "#cbe2ed" },
 		extend: {
 			maxWidth: {
 				gutter: "768px",
