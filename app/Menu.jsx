@@ -4,10 +4,10 @@ export default function Menu() {
 	return (
 		<div className="bg-light-grey">
 			<section className="clear-gutters">
-				<ul>
+				<ul id="menu-items" className="py-1">
 					<Link href="#">
 						<li>
-							<strong>All Places</strong>
+							<h2>All Places</h2>
 							<p>
 								A full list of all of our London
 								recommendations.
@@ -16,7 +16,7 @@ export default function Menu() {
 					</Link>
 					<Link href="#">
 						<li>
-							<strong>Places by Type</strong>
+							<h2>Places by Type</h2>
 							<p>
 								Places grouped by type, e.g. parks, museums,
 								places to eat.
@@ -25,7 +25,7 @@ export default function Menu() {
 					</Link>
 					<Link href="#">
 						<li>
-							<strong>Place by Area</strong>
+							<h2>Place by Area</h2>
 							<p>
 								Places grouped by area, so you can plan your
 								visit.
