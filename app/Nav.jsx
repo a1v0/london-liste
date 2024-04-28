@@ -17,11 +17,11 @@ export default function Nav(props) {
 					onClick={() => {
 						props.setShowMenu(!props.showMenu);
 					}}
-					className={` h-full p-2 flex items-center font-bold border-x-2 ${props.showMenu ? "text-[black] border-x-[black]" : "text-[white] border-x-[white]"}`}
+					className={`h-full p-2 flex items-center font-bold border-x-2 ${props.showMenu ? "text-[black] border-x-[black]" : "text-[white] border-x-[white]"}`}
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						className="mr-2 h-4 w-4"
+						className="sm:mr-2 sm:mx-0 mx-4 h-4 w-4"
 						viewBox="0 0 16 16"
 					>
 						<path
@@ -30,7 +30,9 @@ export default function Nav(props) {
 							d={props.showMenu ? upChevronPath : downChevronPath}
 						/>
 					</svg>
-					Menu
+					<span className="text-[emerald] sm:inline hidden">
+						Menu
+					</span>
 				</button>
 			</div>
 		</nav>
