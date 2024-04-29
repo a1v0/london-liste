@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		@apply m-0;
+		@apply p-0;
+		@apply box-border;
+	}
+
+	.clear-gutters {
+		@apply mx-2;
+		@apply md:mx-auto;
+		@apply my-0;
+		@apply max-w-gutter;
+	}
+
+	nav ul li {
+		@apply inline-block;
+		@apply list-none;
+	}
+
+	#menu-items li {
+		@apply p-2;
+		@apply rounded-md;
+		@apply hover:bg-[white];
+	}
+
+	#menu-items a {
+		@apply no-underline;
+	}
+
+	#menu-items h2 {
+		@apply m-0;
+	}
+
+	a {
+		@apply underline;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-medium;
+	}
+
+	h1 {
+		@apply text-5xl;
+		@apply mt-6;
+		@apply mb-5;
+	}
+
+	h2 {
+		@apply text-4xl;
+		@apply mt-5;
+		@apply mb-4;
+	}
+
+	h3 {
+		@apply text-3xl;
+		@apply mt-4;
+		@apply mb-3;
+	}
+
+	h4 {
+		@apply text-2xl;
+		@apply mt-3;
+		@apply mb-2;
+	}
+
+	h5 {
+		@apply text-xl;
+		@apply mt-2;
+		@apply mb-1;
+	}
+
+	h6 {
+		@apply text-lg;
+		@apply mt-1;
+		@apply mb-0;
+	}
+
+	p {
+		@apply mt-1;
+		@apply mb-2;
+	}
+}
