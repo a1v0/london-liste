@@ -1,3 +1,4 @@
+import Link from "next/link.js";
 import PlaceTile from "../PlaceTile.jsx";
 import GlobalConfig from "../app.config.js";
 
@@ -9,6 +10,16 @@ export default function PlaceTypes() {
 		<div>
 			<article className="clear-gutters">
 				<h1>Places by Type</h1>
+
+				<ul className="ml-4">
+					{placeTypes.map((placeType) => {
+						return (
+							<li key={placeType}>
+								<Link href={`#${placeType}`}>{placeType}</Link>
+							</li>
+						);
+					})}
+				</ul>
 
 				{placeTypes.map((placeType) => {
 					const placesOfType = placesByType[placeType];
