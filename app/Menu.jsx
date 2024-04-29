@@ -25,7 +25,7 @@ export default function Menu() {
 					</Link>
 					<Link href="#">
 						<li>
-							<h2>Places by Area</h2>
+							<h2>Places by Area [work in progress]</h2>
 							<p>
 								Places grouped by area, so you can plan your
 								visit.
