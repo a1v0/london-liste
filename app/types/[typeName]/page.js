@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import GlobalConfig from "../../app.config.js";
-import Link from "next/link.js";
+import PlaceTile from "@/app/PlaceTile.jsx";
 
 export default function PlaceType({ params: { typeName } }) {
 	const placeType = GlobalConfig.placeTypes[typeName];
@@ -11,7 +11,10 @@ export default function PlaceType({ params: { typeName } }) {
 	return (
 		<div>
 			<article className="clear-gutters">
-				<h1>hello</h1>{" "}
+				<h1>{placeType[0].type}s</h1>
+				{placeType.map((place) => {
+					return <PlaceTile place={place} />;
+				})}
 			</article>
 		</div>
 	);
