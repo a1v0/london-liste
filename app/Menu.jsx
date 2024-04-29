@@ -14,7 +14,7 @@ export default function Menu() {
 							</p>
 						</li>
 					</Link>
-					<Link href="#">
+					<Link href="/types">
 						<li>
 							<h2>Places by Type</h2>
 							<p>
