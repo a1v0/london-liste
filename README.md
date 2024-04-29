@@ -32,3 +32,5 @@ To begin, you need to create a fork of the repo. On the [repo homepage](https://
 - add clear instructions about what _not_ to add, e.g. personal data
 - get colour scheme
 - favicon
+- ensure page titles get updated during navigation
+- create decent home page
