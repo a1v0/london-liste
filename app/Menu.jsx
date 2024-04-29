@@ -5,7 +5,7 @@ export default function Menu() {
 		<div className="bg-light-grey">
 			<section className="clear-gutters">
 				<ul id="menu-items" className="py-1">
-					<Link href="#">
+					<Link href="/places">
 						<li>
 							<h2>All Places</h2>
 							<p>
