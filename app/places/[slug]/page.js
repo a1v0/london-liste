@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import GlobalConfig from "./../../app.config.js";
 import Link from "next/link.js";
-import PageLoader from "next/dist/client/page-loader.js";
 
 export default function Place({ params: { slug } }) {
 	const place = GlobalConfig.allPlaces.find((item) => {
