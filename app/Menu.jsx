@@ -5,7 +5,7 @@ export default function Menu() {
 		<div className="bg-light-grey">
 			<section className="clear-gutters">
 				<ul id="menu-items" className="py-1">
-					<Link href="#">
+					<Link href="/places">
 						<li>
 							<h2>All Places</h2>
 							<p>
@@ -14,7 +14,7 @@ export default function Menu() {
 							</p>
 						</li>
 					</Link>
-					<Link href="#">
+					<Link href="/types">
 						<li>
 							<h2>Places by Type</h2>
 							<p>
@@ -25,7 +25,7 @@ export default function Menu() {
 					</Link>
 					<Link href="#">
 						<li>
-							<h2>Places by Area</h2>
+							<h2>Places by Area [work in progress]</h2>
 							<p>
 								Places grouped by area, so you can plan your
 								visit.
