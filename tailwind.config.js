@@ -6,7 +6,7 @@ module.exports = {
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
-		fontFamily: { fraktur: ["UnifrakturMaguntia"] },
+		fontFamily: { logo: ["'Permanent Marker'"] },
 		colors: { "brand-blue": "#4175be", "light-grey": "#cbe2ed" },
 		extend: {
 			maxWidth: {

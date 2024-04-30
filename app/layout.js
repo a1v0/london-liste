@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 					crossOrigin="true"
 				/>
 				<link
-					href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap"
+					href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Permanent+Marker&display=swap"
 					rel="stylesheet"
 				/>
 			</head>
