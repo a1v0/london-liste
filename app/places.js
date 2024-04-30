@@ -55,17 +55,18 @@ exports.places = [
 		website: "",
 	},
 	{
-		slug: "", // leave this blank
-		name: "",
+		slug: "wellcome-collection", // leave this blank
+		name: "Wellcome Collection",
 		keyFacts: [
-			"",
-			"", // add more or delete as necessary
+			"Interesting mix between art and science",
+			"Temporary exhibitions usually exceptionally good",
+			"Gift shop full of interesting books and toys",
 		],
 		description: "",
-		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-		cost: "",
-		location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-		website: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - Euston", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://wellcomecollection.org/",
 	},
 	{
 		slug: "", // leave this blank
@@ -432,7 +433,6 @@ exports.places = [
 		website: "",
 	},
 
-	// Old Bailey (but under-14s not allowed)
 	// Wellcome Trust Museum
 	// Trafalgar Square
 	// Camden Town, walk from King's Cross along canal
