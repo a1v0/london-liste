@@ -28,16 +28,9 @@ To begin, you need to create a fork of the repo. On the [repo homepage](https://
 
 ## To-do
 
-- design data structure
-  - need to be able to relate categories to places and types
-    - do we need any other relational structures?
-  - how do we assign a unique and permanent slug to each place?
-    - I think it'll be OK, for now, to do a manual check for duplicates before committing a new piece of data
-  - you can make the data globally available as per this: [https://medium.com/@squashfold/creating-globally-accessible-variables-and-configuration-files-in-next-js-83811d9edc7e](https://medium.com/@squashfold/creating-globally-accessible-variables-and-configuration-files-in-next-js-83811d9edc7e)
 - create instructions for forking and editing data structure
-- ~~protect `main` branch~~
 - add clear instructions about what _not_ to add, e.g. personal data
 - get colour scheme
-- create basic design and discuss with stakeholders
-- 404 page
 - favicon
+- ensure page titles get updated during navigation
+- create decent home page
