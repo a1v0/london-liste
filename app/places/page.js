@@ -9,7 +9,7 @@ export default function Places() {
 			<article className="clear-gutters">
 				<h1>All Places</h1>
 				{places.map((place) => {
-					return <PlaceTile place={place} />;
+					return <PlaceTile key={place.slug} place={place} />;
 				})}
 			</article>
 		</div>
