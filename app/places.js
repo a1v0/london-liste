@@ -73,22 +73,23 @@ exports.places = [
 		name: "Trafalgar Square",
 		keyFacts: ["Can you find the measurement scales on the square?"],
 		description: "",
-		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+		type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
 		cost: "free",
 		location: "Central - Leicester Square", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
 	{
-		slug: "", // leave this blank
-		name: "",
+		slug: "camden-town", // leave this blank
+		name: "Camden Town",
 		keyFacts: [
-			"",
-			"", // add more or delete as necessary
+			"Trendy, slightly grungy and punky area",
+			"Great food market", // add more or delete as necessary
+			"Walking there for King's Cross is a nice route along the canal",
 		],
 		description: "",
 		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-		cost: "",
-		location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		cost: "free",
+		location: "North - Camden Town", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
 	{
@@ -430,7 +431,6 @@ exports.places = [
 		website: "",
 	},
 
-	// Trafalgar Square
 	// Camden Town, walk from King's Cross along canal
 	// Cartoon Museum (next to the British Museum. Free for under-18s)
 	// Petrie Museum
