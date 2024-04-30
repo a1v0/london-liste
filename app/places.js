@@ -93,17 +93,14 @@ exports.places = [
 		website: "",
 	},
 	{
-		slug: "", // leave this blank
-		name: "",
-		keyFacts: [
-			"",
-			"", // add more or delete as necessary
-		],
+		slug: "cartoon-museum", // leave this blank
+		name: "Cartoon Museum",
+		keyFacts: ["Free for under-18s"],
 		description: "",
-		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-		cost: "",
-		location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-		website: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "Free for under-18s",
+		location: "Central - Holborn", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.cartoonmuseum.org/",
 	},
 	{
 		slug: "", // leave this blank
@@ -431,7 +428,6 @@ exports.places = [
 		website: "",
 	},
 
-	// Camden Town, walk from King's Cross along canal
 	// Cartoon Museum (next to the British Museum. Free for under-18s)
 	// Petrie Museum
 	// Hunterian Museum
