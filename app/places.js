@@ -69,16 +69,13 @@ exports.places = [
 		website: "https://wellcomecollection.org/",
 	},
 	{
-		slug: "", // leave this blank
-		name: "",
-		keyFacts: [
-			"",
-			"", // add more or delete as necessary
-		],
+		slug: "trafalgar-square", // leave this blank
+		name: "Trafalgar Square",
+		keyFacts: ["Can you find the measurement scales on the square?"],
 		description: "",
 		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-		cost: "",
-		location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		cost: "free",
+		location: "Central - Leicester Square", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
 	{
@@ -433,7 +430,6 @@ exports.places = [
 		website: "",
 	},
 
-	// Wellcome Trust Museum
 	// Trafalgar Square
 	// Camden Town, walk from King's Cross along canal
 	// Cartoon Museum (next to the British Museum. Free for under-18s)
