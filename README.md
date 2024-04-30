@@ -34,3 +34,5 @@ To begin, you need to create a fork of the repo. On the [repo homepage](https://
 - favicon
 - ensure page titles get updated during navigation
 - create decent home page
+- make list views clear
+- ensure anchor links don't get hidden under sticky menu (does the menu even need to be sticky?)
