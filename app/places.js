@@ -157,19 +157,19 @@ exports.places = [
 		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "thames-boat-ride", // leave this blank
+		name: "Boat ride along the Thames",
+		keyFacts: [
+			"There are many boat routes along the Thames that run frequently and offer lovely views of the city",
+			"The best routes go between Westminster or Embankment and Greenwich", // add more or delete as necessary
+		],
+		description: "",
+		type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "not cheap. Ca. £20 for an adult",
+		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.thamesclippers.com/",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -446,7 +446,6 @@ exports.places = [
 	// Duxford (costs money)
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// National Trust/English Heritage Stuff (requires membership)
-	// Westminster-Greenwich Boat Ride
 	// Greenwich
 	// Hendon Aircraft Museum
 	// Changing of the Guards
