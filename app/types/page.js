@@ -27,7 +27,9 @@ export default function PlaceTypes() {
 						<div key={placeType}>
 							<h2 id={placeType}>{placeType}</h2>
 							{placesOfType.map((place) => {
-								return <PlaceTile place={place} />;
+								return (
+									<PlaceTile key={place.slug} place={place} />
+								);
 							})}
 						</div>
 					);

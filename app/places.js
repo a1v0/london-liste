@@ -1,6 +1,6 @@
 exports.places = [
 	/**
-     * Approved place types: museum, restaurant, landmark, park, other
+     * Approved place types: museum, restaurant, landmark, park, event, other
      * 
      * Location examples:
      * - Buckingham Palace: "Central - Green Park"
@@ -116,71 +116,75 @@ exports.places = [
 		location: "Central - Euston", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "https://www.ucl.ac.uk/culture/petrie-museum",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "hunterian-museum", // leave this blank
+		name: "Hunterian Museum",
+		keyFacts: [
+			"Fascinating museum about anatomy and surgery, featuring many human and animal remains",
+		],
+		description: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - Holborn", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://hunterianmuseum.org/",
+	},
+	{
+		slug: "imperial-war-museum", // leave this blank
+		name: "Imperial War Museum",
+		keyFacts: [
+			"Museum about war in general",
+			"Big exhibition on WWI but interesting sections on more modern wars, too", // add more or delete as necessary
+			"Despite the name, it's not particularly nationalistic",
+		],
+		description: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "South - Elephant & Castle", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.iwm.org.uk",
+	},
+	{
+		slug: "evensong", // leave this blank
+		name: "Evensong at a major church",
+		keyFacts: [
+			"If you want to get into St Paul's Cathedral or Westminster Abbey for free, just attend an evensong",
+			"Evensong is a service with very little audience participation. It's essentially a concert", // add more or delete as necessary
+			"Last about 40 minutes and usually features wonderful music from world-class choirs",
+			"Isn't limited to St Paul's or Westminster: many other churches offer high-quality music",
+		],
+		description: "",
+		type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
+	{
+		slug: "thames-boat-ride", // leave this blank
+		name: "Boat ride along the Thames",
+		keyFacts: [
+			"There are many boat routes along the Thames that run frequently and offer lovely views of the city",
+			"The best routes go between Westminster or Embankment and Greenwich", // add more or delete as necessary
+		],
+		description: "",
+		type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "not cheap. Ca. £20 for an adult",
+		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.thamesclippers.com/",
+	},
+	{
+		slug: "greenwich", // leave this blank
+		name: "Greenwich",
+		keyFacts: [
+			"Greenwich is a beautiful area full of nice shops and museums",
+			"There's a lovely part and the Royal Observatory", // add more or delete as necessary
+			"It's home to various landmarks including the Cutty Sark and the Royal Naval College",
+			"The Prime Meridian goes through Greenwich, hence Greenwich Meantime",
+		],
+		description: "",
+		type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "South - Greenwich", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -429,11 +433,9 @@ exports.places = [
 	// 	website: "",
 	// },
 
-	// Hunterian Museum
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 	// Excursion to Oxford or Cambridge
 	// Exhibition Road
-	// Imperial War Museum
 	// Billiard in a pool hall
 	// BBC Prom (standing tickets for five pounds)
 	// Globe Theatre (standing tickets for five pounds)
@@ -446,8 +448,6 @@ exports.places = [
 	// Duxford (costs money)
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// National Trust/English Heritage Stuff (requires membership)
-	// Westminster-Greenwich Boat Ride
-	// Greenwich
 	// Hendon Aircraft Museum
 	// Changing of the Guards
 	// Trooping the Colour (just once a year)
@@ -480,7 +480,6 @@ exports.places = [
 	// Skygarden
 	// The Shard 32nd floor (teure Drinks)
 	// Looking for Roman shards at the Millennium Bridge
-	// Evensong @ St Paul's
 
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 ];

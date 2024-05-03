@@ -27,7 +27,9 @@ export default function PlaceAreas() {
 						<div key={area}>
 							<h2 id={area}>{area}</h2>
 							{placesInArea.map((place) => {
-								return <PlaceTile place={place} />;
+								return (
+									<PlaceTile key={place.slug} place={place} />
+								);
 							})}
 						</div>
 					);
