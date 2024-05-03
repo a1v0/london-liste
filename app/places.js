@@ -116,19 +116,18 @@ exports.places = [
 		location: "Central - Euston", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "https://www.ucl.ac.uk/culture/petrie-museum",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "hunterian-museum", // leave this blank
+		name: "Hunterian Museum",
+		keyFacts: [
+			"Fascinating museum about anatomy and surgery, featuring many human and animal remains",
+		],
+		description: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - Holborn", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://hunterianmuseum.org/",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
