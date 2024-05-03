@@ -170,19 +170,21 @@ exports.places = [
 		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "https://www.thamesclippers.com/",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "greenwich", // leave this blank
+		name: "Greenwich",
+		keyFacts: [
+			"Greenwich is a beautiful area full of nice shops and museums",
+			"There's a lovely part and the Royal Observatory", // add more or delete as necessary
+			"It's home to various landmarks including the Cutty Sark and the Royal Naval College",
+			"The Prime Meridian goes through Greenwich, hence Greenwich Meantime",
+		],
+		description: "",
+		type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "South - Greenwich", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -446,7 +448,6 @@ exports.places = [
 	// Duxford (costs money)
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// National Trust/English Heritage Stuff (requires membership)
-	// Greenwich
 	// Hendon Aircraft Museum
 	// Changing of the Guards
 	// Trooping the Colour (just once a year)
