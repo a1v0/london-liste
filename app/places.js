@@ -128,19 +128,20 @@ exports.places = [
 		location: "Central - Holborn", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "https://hunterianmuseum.org/",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "imperial-war-museum", // leave this blank
+		name: "Imperial War Museum",
+		keyFacts: [
+			"Museum about war in general",
+			"Big exhibition on WWI but interesting sections on more modern wars, too", // add more or delete as necessary
+			"Despite the name, it's not particularly nationalistic",
+		],
+		description: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "South - Elephant & Castle", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.iwm.org.uk",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -428,7 +429,6 @@ exports.places = [
 	// 	website: "",
 	// },
 
-	// Hunterian Museum
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 	// Excursion to Oxford or Cambridge
 	// Exhibition Road
