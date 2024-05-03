@@ -1,6 +1,6 @@
 exports.places = [
 	/**
-     * Approved place types: museum, restaurant, landmark, park, other
+     * Approved place types: museum, restaurant, landmark, park, event, other
      * 
      * Location examples:
      * - Buckingham Palace: "Central - Green Park"
@@ -142,19 +142,21 @@ exports.places = [
 		location: "South - Elephant & Castle", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "https://www.iwm.org.uk",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "evensong", // leave this blank
+		name: "Evensong at a major church",
+		keyFacts: [
+			"If you want to get into St Paul's Cathedral or Westminster Abbey for free, just attend an evensong",
+			"Evensong is a service with very little audience participation. It's essentially a concert", // add more or delete as necessary
+			"Last about 40 minutes and usually features wonderful music from world-class choirs",
+			"Isn't limited to St Paul's or Westminster: many other churches offer high-quality music",
+		],
+		description: "",
+		type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -432,7 +434,6 @@ exports.places = [
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 	// Excursion to Oxford or Cambridge
 	// Exhibition Road
-	// Imperial War Museum
 	// Billiard in a pool hall
 	// BBC Prom (standing tickets for five pounds)
 	// Globe Theatre (standing tickets for five pounds)
@@ -479,7 +480,6 @@ exports.places = [
 	// Skygarden
 	// The Shard 32nd floor (teure Drinks)
 	// Looking for Roman shards at the Millennium Bridge
-	// Evensong @ St Paul's
 
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 ];
