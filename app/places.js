@@ -194,23 +194,23 @@ exports.places = [
 	 	],
 	 	description: "",
 	 	type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "Ca. £5 for standing tickets",
+	 	cost: "Ca. £5 for standing tickets, more for seated",
 	 	location: "Central - South Kensington", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	 	website: "https://www.bbc.co.uk/proms",
-	 },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	},
+	{
+	 	slug: "the-globe", // leave this blank
+	 	name: "The Globe Theatre",
+	 	keyFacts: [
+	 		"See Shakespeare live in his own theatre, with standing tickets for £5",
+	 		"A wonderful venue where you can enjoy high-class performances of works by Shakespeare and others from that era", // add more or delete as necessary
+	 	],
+	 	description: "",
+	 	type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+	 	cost: "Ca. £5 for standing tickets, more for seated",
+	 	location: "Central - Southwark", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	 	website: "https://www.shakespearesglobe.com/",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -437,8 +437,6 @@ exports.places = [
 	// Excursion to Oxford or Cambridge
 	// Exhibition Road
 	// Billiard in a pool hall
-	// BBC Prom (standing tickets for five pounds)
-	// Globe Theatre (standing tickets for five pounds)
 	// Alexandra Palace
 	// Borough Market / Maltby Street Market
 	// Thames barriers
