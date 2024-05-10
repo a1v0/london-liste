@@ -1,6 +1,6 @@
 exports.places = [
 	/**
-     * Approved place types: museum, restaurant, landmark, park, event, other
+     * Approved place types: museum, restaurant, landmark, park, event, activity, other
      * 
      * Location examples:
      * - Buckingham Palace: "Central - Green Park"
@@ -433,51 +433,59 @@ exports.places = [
 	// 	website: "",
 	// },
 
+	// ACTIVITIES
+	// A walk along the Southbank
+	// Bicycle tour Kings Cross, Regents Canal, Docklands and back
+	// Barclays Bike
+	// Looking for Roman shards at the Millennium Bridge
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
-	// Excursion to Oxford or Cambridge
-	// Exhibition Road
+	// The Monument (two pounds for students, but one must climb 311 steps)
 	// Billiard in a pool hall
-	// Alexandra Palace
+	// RESTAURANTS
 	// Borough Market / Maltby Street Market
+	// EVENTS
+	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
+	// Trooping the Colour (just once a year)
+	// Changing of the Guards
+	// MUSEUMS
+	// Hendon Aircraft Museum
+	// Exhibition Road
+	// Bank of England Museum
+	// British Museum
+	// St John Museum
+	// Duxford (costs money)
+	// PARKS
+	// Skygarden
+	// National Trust/English Heritage Stuff (requires membership)
+	// Epping Forest
+	// Hampstead Heath, especially The Pergola
+	// Richmond Park
+	// Chislehurst Caves
+	// LANDMARKS
+	// Highgate Cemetery
+	// Alexandra Palace
 	// Thames barriers
+	// Lloyd's Building
+	// Leadenhall Market
+	// OTHER
+	
 	// Harrods
+	// Excursion to Oxford or Cambridge
 	// Ely
 	// George Harrison Temple
-	// Duxford (costs money)
-	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
-	// National Trust/English Heritage Stuff (requires membership)
-	// Hendon Aircraft Museum
-	// Changing of the Guards
-	// Trooping the Colour (just once a year)
 	// Shree Swaminarayan Hindu Mandir, Neasden
-	// A walk along the Southbank
-	// The Monument (two pounds for students, but one must climb 311 steps)
 	// St Albans
 	// Flea Market
 	// Covent Garden
 	// Southend-on-Sea
-	// Hampstead Heath, especially The Pergola
-	// Lloyd's Building, Leadenhall Market
 	// Billingsgate Market (requires visiting very early in the morning, between midnight and 7am)
 	// Smithfield Market (requires visiting very early in the morning, between midnight and 7am)
 	// New Spitalfields Market (requires visiting very early in the morning, between midnight and 7am)
 	// London Silver Vaults
-	// Epping Forest
-	// Bank of England Museum
-	// British Museum
-	// Richmond Park
-
 	// London Hackspace (Tuesday evening open night)
-
 	// Brewery in NW1
-	// Chislehurst Caves
-	// Bicycle tour Kings Cross, Regents Canal, Docklands and back
 	// Park in the Olympic area
-	// Barclays Bike
-	// Highgate Cemetery
-	// Skygarden
 	// The Shard 32nd floor (teure Drinks)
-	// Looking for Roman shards at the Millennium Bridge
 
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 ];
