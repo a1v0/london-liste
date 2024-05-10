@@ -211,19 +211,19 @@ exports.places = [
 	 	location: "Central - Southwark", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	 	website: "https://www.shakespearesglobe.com/",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+	 	slug: "southbank", // leave this blank
+	 	name: "A Walk Along the Southbank",
+	 	keyFacts: [
+	 		"A beautiful stroll from Monument, along London Bridge, then across the Southbank towards the London Eye",
+	 		"Lovely scenery, including the Tate Modern, Globe, Borough Market and more", // add more or delete as necessary
+	 	],
+	 	description: "",
+	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+	 	cost: "free",
+	 	location: "Central - Southbank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	 	website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
