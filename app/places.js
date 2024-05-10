@@ -224,19 +224,19 @@ exports.places = [
 	 	location: "Central - Southbank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	 	website: "",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+	 	slug: "docklands-bicycle-tour", // leave this blank
+	 	name: "Cycling from King's Cross to Canary Wharf",
+	 	keyFacts: [
+	 		"Trip along Regent's Canal, through East London all the way to Canary Wharf",
+	 		"Start at King's Cross, find the canal, go through Victoria Park, continue along the canal for ages until you reach the Limehouse Basin. Navigate to the Thames and continue cycling until you reach Canary Wharf", // add more or delete as necessary
+	 	],
+	 	description: "",
+	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+	 	cost: "free",
+	 	location: "Central - King's Cross", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	 	website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -434,8 +434,6 @@ exports.places = [
 	// },
 
 	// ACTIVITIES
-	// A walk along the Southbank
-	// Bicycle tour Kings Cross, Regents Canal, Docklands and back
 	// Barclays Bike
 	// Looking for Roman shards at the Millennium Bridge
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
