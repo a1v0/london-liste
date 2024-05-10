@@ -250,19 +250,19 @@ exports.places = [
 	 	location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	 	website: "https://www.bankofengland.co.uk/museum",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+	 	slug: "boris-bike", // leave this blank
+	 	name: "Boris Bikes (street-side bicycle hire)",
+	 	keyFacts: [
+	 		"Hire bikes for cheap and travel through the city",
+	 		"London can look scary for cyclists but it's mostly pretty safe. Using a bike is a great way to get to know the city from different angles", // add more or delete as necessary
+	 	],
+	 	description: "",
+	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+	 	cost: "not much",
+	 	location: "Central - everywhere", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	 	website: "https://tfl.gov.uk/modes/cycling/santander-cycles",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
