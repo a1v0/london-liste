@@ -35,4 +35,7 @@ To begin, you need to create a fork of the repo. On the [repo homepage](https://
 - ensure page titles get updated during navigation
 - create decent home page
 - make list views clear
+  - ensure that section titles and item titles aren't _both_ `<h2>` tags
 - ensure anchor links don't get hidden under sticky menu (does the menu even need to be sticky?)
+- enable multiple categories per item
+- make the list-view short description of each item be the first bullet point, not the long description
