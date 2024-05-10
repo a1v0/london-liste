@@ -237,19 +237,19 @@ exports.places = [
 	 	location: "Central - King's Cross", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	 	website: "",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+	 	slug: "bank-of-england", // leave this blank
+	 	name: "Bank of England Museum (weekdays only)",
+	 	keyFacts: [
+	 		"Hold a real gold bar in your hand, worth ca. £700k",
+	 		"Interesting little museum about how money is made etc. The Building is impressive, too", // add more or delete as necessary
+	 	],
+	 	description: "",
+	 	type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+	 	cost: "free",
+	 	location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	 	website: "https://www.bankofengland.co.uk/museum",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -439,19 +439,22 @@ exports.places = [
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 	// The Monument (two pounds for students, but one must climb 311 steps)
 	// Billiard in a pool hall
+	
 	// RESTAURANTS
 	// Borough Market / Maltby Street Market
+	
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// Trooping the Colour (just once a year)
 	// Changing of the Guards
+	
 	// MUSEUMS
 	// Hendon Aircraft Museum
 	// Exhibition Road
-	// Bank of England Museum
 	// British Museum
 	// St John Museum
 	// Duxford (costs money)
+	
 	// PARKS
 	// Skygarden
 	// National Trust/English Heritage Stuff (requires membership)
@@ -459,14 +462,15 @@ exports.places = [
 	// Hampstead Heath, especially The Pergola
 	// Richmond Park
 	// Chislehurst Caves
+	
 	// LANDMARKS
 	// Highgate Cemetery
 	// Alexandra Palace
 	// Thames barriers
 	// Lloyd's Building
 	// Leadenhall Market
-	// OTHER
 	
+	// OTHER
 	// Harrods
 	// Excursion to Oxford or Cambridge
 	// Ely
