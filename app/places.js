@@ -185,19 +185,19 @@ exports.places = [
 		location: "South - Greenwich", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "bbc-prom", // leave this blank
+	 	name: "BBC Prom (summer only)",
+	 	keyFacts: [
+	 		"Series of classical concerts in the Royal Albert Hall, with cheap standing tickets (ca. £5)",
+	 		"Varied fare of excellent quality. A real cultural institution in a great location", // add more or delete as necessary
+	 	],
+	 	description: "",
+	 	type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+	 	cost: "Ca. £5 for standing tickets",
+	 	location: "Central - South Kensington", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	 	website: "https://www.bbc.co.uk/proms",
+	 },
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
