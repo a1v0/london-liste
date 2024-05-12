@@ -290,19 +290,18 @@ exports.places = [
 		location: "Central - St Paul's", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "changing-of-the-guard", // leave this blank
+		name: "The Changing of the Guard",
+		keyFacts: [
+			"Every morning during summer, a beautiful ceremony of pomp and circumstance takes place outside Buckingham Palace",
+		],
+		description: "",
+		type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - Green Park", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://changing-guard.com/dates-buckingham-palace.html",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -445,7 +444,6 @@ exports.places = [
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// Trooping the Colour (just once a year)
-	// Changing of the Guards
 
 	// MUSEUMS
 	// Hendon Aircraft Museum
