@@ -187,108 +187,109 @@ exports.places = [
 	},
 	{
 		slug: "bbc-prom", // leave this blank
-	 	name: "BBC Prom (summer only)",
-	 	keyFacts: [
-	 		"Series of classical concerts in the Royal Albert Hall, with cheap standing tickets (ca. £5)",
-	 		"Varied fare of excellent quality. A real cultural institution in a great location", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "Ca. £5 for standing tickets, more for seated",
-	 	location: "Central - South Kensington", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	 	website: "https://www.bbc.co.uk/proms",
+		name: "BBC Prom (summer only)",
+		keyFacts: [
+			"Series of classical concerts in the Royal Albert Hall, with cheap standing tickets (ca. £5)",
+			"Varied fare of excellent quality. A real cultural institution in a great location", // add more or delete as necessary
+		],
+		description: "",
+		type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "Ca. £5 for standing tickets, more for seated",
+		location: "Central - South Kensington", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.bbc.co.uk/proms",
 	},
 	{
-	 	slug: "the-globe", // leave this blank
-	 	name: "The Globe Theatre",
-	 	keyFacts: [
-	 		"See Shakespeare live in his own theatre, with standing tickets for £5",
-	 		"A wonderful venue where you can enjoy high-class performances of works by Shakespeare and others from that era", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "Ca. £5 for standing tickets, more for seated",
-	 	location: "Central - Southwark", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	 	website: "https://www.shakespearesglobe.com/",
+		slug: "the-globe", // leave this blank
+		name: "The Globe Theatre",
+		keyFacts: [
+			"See Shakespeare live in his own theatre, with standing tickets for £5",
+			"A wonderful venue where you can enjoy high-class performances of works by Shakespeare and others from that era", // add more or delete as necessary
+		],
+		description: "",
+		type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "Ca. £5 for standing tickets, more for seated",
+		location: "Central - Southwark", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.shakespearesglobe.com/",
 	},
 	{
-	 	slug: "southbank", // leave this blank
-	 	name: "A Walk Along the Southbank",
-	 	keyFacts: [
-	 		"A beautiful stroll from Monument, along London Bridge, then across the Southbank towards the London Eye",
-	 		"Lovely scenery, including the Tate Modern, Globe, Borough Market and more", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "free",
-	 	location: "Central - Southbank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	 	website: "",
+		slug: "southbank", // leave this blank
+		name: "A Walk Along the Southbank",
+		keyFacts: [
+			"A beautiful stroll from Monument, along London Bridge, then across the Southbank towards the London Eye",
+			"Lovely scenery, including the Tate Modern, Globe, Borough Market and more", // add more or delete as necessary
+		],
+		description: "",
+		type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - Southbank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
 	},
 	{
-	 	slug: "docklands-bicycle-tour", // leave this blank
-	 	name: "Cycling from King's Cross to Canary Wharf",
-	 	keyFacts: [
-	 		"Trip along Regent's Canal, through East London all the way to Canary Wharf",
-	 		"Start at King's Cross, find the canal, go through Victoria Park, continue along the canal for ages until you reach the Limehouse Basin. Navigate to the Thames and continue cycling until you reach Canary Wharf", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "free",
-	 	location: "Central - King's Cross", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	 	website: "",
+		slug: "docklands-bicycle-tour", // leave this blank
+		name: "Cycling from King's Cross to Canary Wharf",
+		keyFacts: [
+			"Trip along Regent's Canal, through East London all the way to Canary Wharf",
+			"Start at King's Cross, find the canal, go through Victoria Park, continue along the canal for ages until you reach the Limehouse Basin. Navigate to the Thames and continue cycling until you reach Canary Wharf", // add more or delete as necessary
+		],
+		description: "",
+		type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - King's Cross", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
 	},
 	{
-	 	slug: "bank-of-england", // leave this blank
-	 	name: "Bank of England Museum (weekdays only)",
-	 	keyFacts: [
-	 		"Hold a real gold bar in your hand, worth ca. £700k",
-	 		"Interesting little museum about how money is made etc. The Building is impressive, too", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "free",
-	 	location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	 	website: "https://www.bankofengland.co.uk/museum",
+		slug: "bank-of-england", // leave this blank
+		name: "Bank of England Museum (weekdays only)",
+		keyFacts: [
+			"Hold a real gold bar in your hand, worth ca. £700k",
+			"Interesting little museum about how money is made etc. The Building is impressive, too", // add more or delete as necessary
+		],
+		description: "",
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.bankofengland.co.uk/museum",
 	},
 	{
-	 	slug: "boris-bike", // leave this blank
-	 	name: "Boris Bikes (street-side bicycle hire)",
-	 	keyFacts: [
-	 		"Hire bikes for cheap and travel through the city",
-	 		"London can look scary for cyclists but it's mostly pretty safe. Using a bike is a great way to get to know the city from different angles", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "not much",
-	 	location: "Central - everywhere", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	 	website: "https://tfl.gov.uk/modes/cycling/santander-cycles",
+		slug: "boris-bike", // leave this blank
+		name: "Boris Bikes (street-side bicycle hire)",
+		keyFacts: [
+			"Hire bikes for cheap and travel through the city",
+			"London can look scary for cyclists but it's mostly pretty safe. Using a bike is a great way to get to know the city from different angles", // add more or delete as necessary
+		],
+		description: "",
+		type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "not much",
+		location: "Central - everywhere", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://tfl.gov.uk/modes/cycling/santander-cycles",
 	},
 	{
-	 	slug: "london-bus-tour", // leave this blank
-	 	name: "Sightseeing on a red bus",
-	 	keyFacts: [
-	 		"See the sights for the cost of a normal bus fare",
-	 		"Check out the website for a list of all leisure routes. They're ordinary bus routes that go along all of the important tourist spots", // add more or delete as necessary
-	 	],
-	 	description: "",
-	 	type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
-	 	cost: "ca. £2",
+		slug: "london-bus-tour", // leave this blank
+		name: "Sightseeing on a red bus",
+		keyFacts: [
+			"See the sights for the cost of a normal bus fare",
+			"Check out the website for a list of all leisure routes. They're ordinary bus routes that go along all of the important tourist spots", // add more or delete as necessary
+		],
+		description: "",
+		type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "ca. £2",
 		location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-		website: "https://tfl.gov.uk/travel-information/visiting-london/experience-london/bus-leisure-routes",
+		website:
+			"https://tfl.gov.uk/travel-information/visiting-london/experience-london/bus-leisure-routes",
 	},
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
+	{
+		slug: "roman-shards-millennium-bridge", // leave this blank
+		name: "Searching for Roman artefacts at the Millennium Bridge",
+		keyFacts: [
+			"Throughout history, all sorts of stuff has washed up on the shores of the Thames. Now's your chance to dig it up!",
+			"Go down to the river by the northern end of the Millennium Bridge, opposite the Tate Modern. You'll find stones, bones and pottery, some of which might be ancient.", // add more or delete as necessary
+		],
+		description: "",
+		type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "free",
+		location: "Central - St Paul's", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -434,26 +435,25 @@ exports.places = [
 	// },
 
 	// ACTIVITIES
-	// Looking for Roman shards at the Millennium Bridge
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 	// The Monument (two pounds for students, but one must climb 311 steps)
 	// Billiard in a pool hall
-	
+
 	// RESTAURANTS
 	// Borough Market / Maltby Street Market
-	
+
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// Trooping the Colour (just once a year)
 	// Changing of the Guards
-	
+
 	// MUSEUMS
 	// Hendon Aircraft Museum
 	// Exhibition Road
 	// British Museum
 	// St John Museum
 	// Duxford (costs money)
-	
+
 	// PARKS
 	// Skygarden
 	// National Trust/English Heritage Stuff (requires membership)
@@ -461,14 +461,14 @@ exports.places = [
 	// Hampstead Heath, especially The Pergola
 	// Richmond Park
 	// Chislehurst Caves
-	
+
 	// LANDMARKS
 	// Highgate Cemetery
 	// Alexandra Palace
 	// Thames barriers
 	// Lloyd's Building
 	// Leadenhall Market
-	
+
 	// OTHER
 	// Harrods
 	// Excursion to Oxford or Cambridge
