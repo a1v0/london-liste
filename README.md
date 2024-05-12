@@ -37,3 +37,4 @@ To begin, you need to create a fork of the repo. On the [repo homepage](https://
     - ensure that section titles and item titles aren't _both_ `<h2>` tags
 7. enable multiple categories per item
 8. make the list-view short description of each item be the first bullet point, not the long description
+9. change the way categories work so that they have a display name. Use OOP to achieve this
