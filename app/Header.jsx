@@ -16,7 +16,7 @@ export default function Header() {
 	}, [pathname]);
 
 	return (
-		<header className="sticky bg-brand-blue top-0">
+		<header className="bg-brand-blue">
 			<div className="flex clear-gutters justify-between">
 				<Logo />
 				<Nav showMenu={showMenu} setShowMenu={setShowMenu} />
