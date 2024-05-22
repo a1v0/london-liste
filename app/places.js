@@ -328,6 +328,32 @@ exports.places = [
 	  location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	  website: "https://www.walks.com/",
 	},
+	{
+		slug: "borough-market", // leave this blank
+		name: "Borough Market",
+		keyFacts: [
+			"Famous street food market with all manner of local and exotic fare",
+			"The fruit and veg section of the market sometimes has interesting and rare stock, e.g. fruits you've never heard of", // add more or delete as necessary
+		],
+		description: "",
+		type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "ca. £10 a meal, but prices vary a lot",
+		location: "Central - London Bridge", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
+	{
+		slug: "maltby-street-market", // leave this blank
+		name: "Maltby Street Market",
+		keyFacts: [
+			"Trendy street food market",
+			"", // add more or delete as necessary
+		],
+		description: "",
+		type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "ca. £10 a meal, but prices vary a lot",
+		location: "Central - London Bridge / Bermondsey", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -406,35 +432,6 @@ exports.places = [
 	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	// 	website: "",
 	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-
-	// RESTAURANTS
-	// Borough Market / Maltby Street Market
 
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
