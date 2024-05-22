@@ -433,6 +433,9 @@ exports.places = [
 	// 	website: "",
 	// },
 
+  // RESTAURANTS
+  // St Mary Aldermary
+
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// Trooping the Colour (just once a year)
@@ -443,6 +446,7 @@ exports.places = [
 	// British Museum
 	// St John Museum
 	// Duxford (costs money)
+  // White Cube Gallery
 
 	// PARKS
 	// Skygarden
@@ -451,13 +455,16 @@ exports.places = [
 	// Hampstead Heath, especially The Pergola
 	// Richmond Park
 	// Chislehurst Caves
+  // Postman's Park
 
 	// LANDMARKS
 	// Highgate Cemetery
+  // Abney Park Cemetery
 	// Alexandra Palace
 	// Thames barriers
 	// Lloyd's Building
 	// Leadenhall Market
+  // Kensington Palace Gardens
 
 	// OTHER
 	// Harrods
