@@ -436,7 +436,6 @@ exports.places = [
 	// ACTIVITIES
 	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 	// The Monument (two pounds for students, but one must climb 311 steps)
-	// Billiard in a pool hall
 
 	// RESTAURANTS
 	// Borough Market / Maltby Street Market
