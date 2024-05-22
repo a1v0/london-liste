@@ -28,14 +28,13 @@ To begin, you need to create a fork of the repo. On the [repo homepage](https://
 
 ## To-do
 
-- create instructions for forking and editing data structure
-- add clear instructions about what _not_ to add, e.g. personal data
-- get colour scheme
-- favicon
-- ensure page titles get updated during navigation
-- create decent home page
-- make list views clear
-  - ensure that section titles and item titles aren't _both_ `<h2>` tags
-- ensure anchor links don't get hidden under sticky menu (does the menu even need to be sticky?)
-- enable multiple categories per item
-- make the list-view short description of each item be the first bullet point, not the long description
+1. create instructions for forking and editing data structure
+2. add clear instructions about what _not_ to add, e.g. personal data
+3. get colour scheme
+4. ensure page titles get updated during navigation
+5. create decent home page
+6. make list views clear
+    - ensure that section titles and item titles aren't _both_ `<h2>` tags
+7. enable multiple categories per item
+8. make the list-view short description of each item be the first bullet point, not the long description
+9. change the way categories work so that they have a display name. Use OOP to achieve this
