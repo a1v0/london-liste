@@ -315,6 +315,19 @@ exports.places = [
 		location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "https://www.themonument.org.uk/",
 	},
+	{
+	  slug: "london-walk", // leave this blank
+    name: "London Walk",
+	  keyFacts: [
+	  	"Guided walking tours of London for any topic you can think of (Jack the Ripper, The Beatles, architecture...)",
+	  	"Excellent quality and usually seriously interesting", // add more or delete as necessary
+	  ],
+	  description: "",
+	  type: "activity", // see list of approved types above. Let a1v0 know if you need to add another type.
+	  cost: "ca. £20 for adults but discounts are available",
+	  location: "Central - various", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+	  website: "https://www.walks.com/",
+	},
 	// {
 	// 	slug: "", // leave this blank
 	// 	name: "",
@@ -419,22 +432,6 @@ exports.places = [
 	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 	// 	website: "",
 	// },
-	// {
-	// 	slug: "", // leave this blank
-	// 	name: "",
-	// 	keyFacts: [
-	// 		"",
-	// 		"", // add more or delete as necessary
-	// 	],
-	// 	description: "",
-	// 	type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-	// 	cost: "",
-	// 	location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-	// 	website: "",
-	// },
-
-	// ACTIVITIES
-	// London Walk (there are some very good ones, just Google them. A Beatles walk, a Jack the Ripper walk etc. and they cost about five pounds)
 
 	// RESTAURANTS
 	// Borough Market / Maltby Street Market
