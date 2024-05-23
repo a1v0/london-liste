@@ -33,10 +33,22 @@ Click the button, create a fork, and you're ready to go.
 
 The file you will be working with is `app/places.js`. The file contains instructions on how to add locations.
 
-1. Find the file in the GitHub file explorer.
+0. Before beginning, go to your fork and press "Sync fork". This will ensure your fork is up to date with the main repo.
+1. Find the `places` file in the GitHub file explorer.
 2. In the top-right corner of the code box, click the pencil icon. This will open the file in Edit mode.
 3. When you're done with your edit, click the green "Commit changes..." button at the top
   - Add a commit message in the imperative tense, e.g. "Add British Museum"
+
+### Pull requests
+
+Once you have made your edit(s), you will want to push them to the main branch.
+
+0. Go to the main page of your fork.
+1. Click "Contribute" and, in the drop-down, click "Open pull request"
+2. Add a simple title, e.g. "New locations" and submit the pull request
+3. I will need to approve your pull request before any of the changes go live
+
+That's all there is to it!
 
 ## To-do
 
