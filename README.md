@@ -23,7 +23,11 @@ The data points we are collecting are as follows (\* denotes a mandatory field):
 
 ### Forking
 
-To begin, you need to create a fork of the repo. On the [repo homepage](https://github.com/a1v0/london-liste), look for the green button near the top that says "Code". Just above and to the right is a button called "Fork".
+To begin, you need to create a fork of the repo. A fork is a copy of the repo which lives in your GitHub account. You can make your edits without affecting the main branch of the repo and, when the time comes, we can merge your changes into the main branch.
+
+On the [repo homepage](https://github.com/a1v0/london-liste), look for the green button near the top that says "Code". Just above and to the right is a button called "Fork".
+
+Click the button, create a fork, and you're ready to go.
 
 ## To-do
 
