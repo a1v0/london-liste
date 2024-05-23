@@ -2,6 +2,10 @@ import Link from "next/link.js";
 import PlaceTile from "../PlaceTile.jsx";
 import GlobalConfig from "../app.config.js";
 
+export const metadata = {
+	title: "Places by Area – London-Liste",
+};
+
 export default function PlaceAreas() {
 	const placesByArea = GlobalConfig.areas;
 	const areas = Object.keys(placesByArea);
