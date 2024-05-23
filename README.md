@@ -21,6 +21,8 @@ The data points we are collecting are as follows (\* denotes a mandatory field):
 
 ## How to use this repo
 
+This repo is simple enough to use. The key thing to remember is that anything you do on GitHub is in the public domain, so don't put any personal data here that you don't want the world to see.
+
 ### Forking
 
 To begin, you need to create a fork of the repo. A fork is a copy of the repo which lives in your GitHub account. You can make your edits without affecting the main branch of the repo and, when the time comes, we can merge your changes into the main branch.
@@ -53,11 +55,10 @@ That's all there is to it!
 ## To-do
 
 1. create instructions for forking and editing data structure
-2. add clear instructions about what _not_ to add, e.g. personal data
-3. ensure page titles get updated during navigation
-4. create decent home page
-5. make list views clear
+1. ensure page titles get updated during navigation
+1. create decent home page
+1. make list views clear
   - ensure that section titles and item titles aren't _both_ `<h2>` tags
-6. enable multiple categories per item
-7. make the list-view short description of each item be the first bullet point, not the long description
-8. change the way categories work so that they have a display name. Use OOP to achieve this
+1. enable multiple categories per item
+1. make the list-view short description of each item be the first bullet point, not the long description
+1. change the way categories work so that they have a display name. Use OOP to achieve this
