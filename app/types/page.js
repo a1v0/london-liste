@@ -2,6 +2,10 @@ import Link from "next/link.js";
 import PlaceTile from "../PlaceTile.jsx";
 import GlobalConfig from "../app.config.js";
 
+export const metadata = {
+	title: "Places by Type – London-Liste",
+};
+
 export default function PlaceTypes() {
 	const placesByType = GlobalConfig.placeTypes;
 	const placeTypes = Object.keys(placesByType);
@@ -24,14 +28,24 @@ export default function PlaceTypes() {
 				{placeTypes.map((placeType) => {
 					const placesOfType = placesByType[placeType];
 					return (
-						<div key={placeType}>
-							<h2 id={placeType}>{placeType}</h2>
-							{placesOfType.map((place) => {
-								return (
-									<PlaceTile key={place.slug} place={place} />
-								);
-							})}
-						</div>
+						<section key={placeType}>
+							<h2
+								id={placeType}
+								className={`border-b-2 border-brand-blue border-dotted`}
+							>
+								{placeType}
+							</h2>
+							<div className={`px-4`}>
+								{placesOfType.map((place) => {
+									return (
+										<PlaceTile
+											key={place.slug}
+											place={place}
+										/>
+									);
+								})}
+							</div>
+						</section>
 					);
 				})}
 			</article>

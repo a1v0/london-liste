@@ -1,6 +1,6 @@
 # London-Liste
 
-A simple web app to display a1v0's et al. hot tips for London.
+A simple web app to display a1v0's et al. hot tips for London. See the hosted site [here](https://london.a1v0.de/).
 
 ## London data
 
@@ -51,10 +51,7 @@ That's all there is to it!
 ## To-do
 
 0. create instructions for forking and editing data structure
-1. ensure page titles get updated during navigation
-2. create decent home page
-3. make list views clear
-   - ensure that section titles and item titles aren't _both_ `<h2>` tags
-4. enable multiple categories per item
-5. make the list-view short description of each item be the first bullet point, not the long description
-6. change the way categories work so that they have a display name. Use OOP to achieve this
+1. create decent home page
+2. enable multiple categories per item
+3. make the list-view short description of each item be the first bullet point, not the long description
+4. change the way categories work so that they have a display name. Use OOP to achieve this

@@ -2,6 +2,10 @@ import Link from "next/link.js";
 import PlaceTile from "../PlaceTile.jsx";
 import GlobalConfig from "../app.config.js";
 
+export const metadata = {
+	title: "Places by Area – London-Liste",
+};
+
 export default function PlaceAreas() {
 	const placesByArea = GlobalConfig.areas;
 	const areas = Object.keys(placesByArea);
@@ -24,14 +28,24 @@ export default function PlaceAreas() {
 				{areas.map((area) => {
 					const placesInArea = placesByArea[area];
 					return (
-						<div key={area}>
-							<h2 id={area}>{area}</h2>
-							{placesInArea.map((place) => {
-								return (
-									<PlaceTile key={place.slug} place={place} />
-								);
-							})}
-						</div>
+						<section key={area}>
+							<h2
+								id={area}
+								className={`border-b-2 border-brand-blue border-dotted`}
+							>
+								{area}
+							</h2>
+							<div className={`px-4`}>
+								{placesInArea.map((place) => {
+									return (
+										<PlaceTile
+											key={place.slug}
+											place={place}
+										/>
+									);
+								})}
+							</div>
+						</section>
 					);
 				})}
 			</article>
