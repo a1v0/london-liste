@@ -29,6 +29,15 @@ On the [repo homepage](https://github.com/a1v0/london-liste), look for the green
 
 Click the button, create a fork, and you're ready to go.
 
+### Adding locations
+
+The file you will be working with is `app/places.js`. The file contains instructions on how to add locations.
+
+1. Find the file in the GitHub file explorer.
+2. In the top-right corner of the code box, click the pencil icon. This will open the file in Edit mode.
+3. When you're done with your edit, click the green "Commit changes..." button at the top
+  - Add a commit message in the imperative tense, e.g. "Add British Museum"
+
 ## To-do
 
 1. create instructions for forking and editing data structure
