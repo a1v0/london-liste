@@ -10,20 +10,21 @@ exports.places = [
      * 
      * To create a new place, paste this template after the last place below:
 
-    {
-        slug: "", // leave this blank
-        name: "",
-        keyFacts: [
-            "", // at least one fact is mandatory
-            "", // add more or delete as necessary
-        ],
-        type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-        cost: "",
-        location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
-        website: ""
-    },
+  {
+    slug: "", // leave this blank
+    name: "",
+    keyFacts: [
+      "", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "",
+    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
 
-     */
+  */
+
 	{
 		slug: "osterley",
 		name: "Osterley House",
@@ -328,6 +329,8 @@ exports.places = [
 		website: "",
 	},
 
+	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
+
   // RESTAURANTS
   // St Mary Aldermary
 
@@ -379,6 +382,4 @@ exports.places = [
 	// Brewery in NW1
 	// Park in the Olympic area
 	// The Shard 32nd floor (teure Drinks)
-
-	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 ];
