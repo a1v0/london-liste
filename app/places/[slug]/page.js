@@ -2,6 +2,14 @@ import { notFound } from "next/navigation";
 import GlobalConfig from "./../../app.config.js";
 import Link from "next/link.js";
 
+export const generateMetadata = ({ params: { slug } }) => {
+	const place = GlobalConfig.allPlaces.find((item) => {
+		return item.slug === slug;
+	});
+
+	return { title: `${place.name} – London-Liste` };
+};
+
 export default function Place({ params: { slug } }) {
 	const place = GlobalConfig.allPlaces.find((item) => {
 		return item.slug === slug;
