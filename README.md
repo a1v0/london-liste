@@ -10,14 +10,10 @@ The data points we are collecting are as follows (\* denotes a mandatory field):
 
 - Name\*
 - Description bullet points\*
-- Website
 - Approximate cost\*
-- Type/category (e.g. restaurant, museum)
-  - we need to come up with a definitive list of types, rather than allowing free user input, so that it's easy to filter on type
-  - should a user be able to set multiple values here?
+- Type/category\*
 - Location/area\*
-  - should a user be able to set multiple values here?
-- [anything else?]
+- Website
 
 ## How to use this repo
 
@@ -39,7 +35,7 @@ The file you will be working with is `app/places.js`. The file contains instruct
 1. Find the `places` file in the GitHub file explorer.
 2. In the top-right corner of the code box, click the pencil icon. This will open the file in Edit mode.
 3. When you're done with your edit, click the green "Commit changes..." button at the top
-  - Add a commit message in the imperative tense, e.g. "Add British Museum"
+   - Add a commit message in the imperative tense, e.g. "Add British Museum"
 
 ### Pull requests
 
@@ -54,11 +50,11 @@ That's all there is to it!
 
 ## To-do
 
-1. create instructions for forking and editing data structure
+0. create instructions for forking and editing data structure
 1. ensure page titles get updated during navigation
-1. create decent home page
-1. make list views clear
-  - ensure that section titles and item titles aren't _both_ `<h2>` tags
-1. enable multiple categories per item
-1. make the list-view short description of each item be the first bullet point, not the long description
-1. change the way categories work so that they have a display name. Use OOP to achieve this
+2. create decent home page
+3. make list views clear
+   - ensure that section titles and item titles aren't _both_ `<h2>` tags
+4. enable multiple categories per item
+5. make the list-view short description of each item be the first bullet point, not the long description
+6. change the way categories work so that they have a display name. Use OOP to achieve this
