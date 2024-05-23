@@ -1,6 +1,10 @@
 import PlaceTile from "../PlaceTile.jsx";
 import GlobalConfig from "../app.config.js";
 
+export const metadata = {
+	title: "All Places – London-Liste",
+};
+
 export default function Places() {
 	const places = GlobalConfig.allPlaces;
 
