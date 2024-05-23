@@ -2,6 +2,10 @@ import Link from "next/link.js";
 import PlaceTile from "../PlaceTile.jsx";
 import GlobalConfig from "../app.config.js";
 
+export const metadata = {
+	title: "Places by Type – London-Liste",
+};
+
 export default function PlaceTypes() {
 	const placesByType = GlobalConfig.placeTypes;
 	const placeTypes = Object.keys(placesByType);
