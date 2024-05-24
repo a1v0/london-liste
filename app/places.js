@@ -378,15 +378,15 @@ exports.places = [
     website: ""
   },
   {
-    slug: "", // leave this blank
-    name: "",
+    slug: "kensington-palace-gardens", // leave this blank
+    name: "Kensington Palace Gardens",
     keyFacts: [
-      "", // at least one fact is mandatory
+      "London's most expensive and impressive street, full of ambassadors' residences", // at least one fact is mandatory
       "", // add more or delete as necessary
     ],
-    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-    cost: "",
-    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "Central - Notting Hill", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
