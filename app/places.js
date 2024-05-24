@@ -428,7 +428,6 @@ exports.places = [
 	// Thames barriers
 	// Lloyd's Building
 	// Leadenhall Market
-  // Kensington Palace Gardens
 
 	// OTHER
 	// Harrods
