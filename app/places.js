@@ -333,6 +333,9 @@ exports.places = [
 
   // RESTAURANTS
   // St Mary Aldermary
+  // Mercato
+  // Brothers
+  // Café oben bei Peter Jones mit coolem Blick
 
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
@@ -345,6 +348,11 @@ exports.places = [
 	// St John Museum
 	// Duxford (costs money)
   // White Cube Gallery
+  // Freemasons' Hall
+  // Two Temple Place
+  // Wallace Collection
+  // Mithras-Tempel
+  // The Royal institution
 
 	// PARKS
 	// Skygarden
@@ -363,6 +371,8 @@ exports.places = [
 	// Lloyd's Building
 	// Leadenhall Market
   // Kensington Palace Gardens
+  // Nase bei der Admiralty Arch
+  // Camden Passage bei Angel
 
 	// OTHER
 	// Harrods
