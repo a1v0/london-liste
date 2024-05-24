@@ -35,7 +35,7 @@ export default function PlaceAreas() {
 							>
 								{area}
 							</h2>
-							<div className={`px-4`}>
+							<div>
 								{placesInArea.map((place) => {
 									return (
 										<PlaceTile
