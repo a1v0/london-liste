@@ -381,7 +381,6 @@ exports.places = [
 	// George Harrison Temple
 	// Shree Swaminarayan Hindu Mandir, Neasden
 	// St Albans
-	// Flea Market
 	// Covent Garden
 	// Southend-on-Sea
 	// Billingsgate Market (requires visiting very early in the morning, between midnight and 7am)
