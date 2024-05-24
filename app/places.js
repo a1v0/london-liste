@@ -81,7 +81,7 @@ exports.places = [
 			"Great food market", // add more or delete as necessary
 			"Walking there for King's Cross is a nice route along the canal",
 		],
-		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+		type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
 		cost: "free",
 		location: "North - Camden Town", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
