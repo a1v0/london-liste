@@ -6,7 +6,7 @@ export default function PlaceTile({ place }) {
 			<div>
 				<h3>{place.name}</h3>
 				<p className="uppercase">{place.type}</p>
-				<p>{place.description}</p>
+				<p>{place.keyFacts[0]}</p>
 			</div>
 		</Link>
 	);
