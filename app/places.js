@@ -366,15 +366,15 @@ exports.places = [
     website: ""
   },
   {
-    slug: "", // leave this blank
-    name: "",
+    slug: "camden-passage", // leave this blank
+    name: "Camden Passage (not actually in Camden)",
     keyFacts: [
-      "", // at least one fact is mandatory
+      "A charming, hidden alleyway full of little shops and cafés", // at least one fact is mandatory
       "", // add more or delete as necessary
     ],
-    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-    cost: "",
-    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "various",
+    location: "North - Angel", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
   {
@@ -429,7 +429,6 @@ exports.places = [
 	// Lloyd's Building
 	// Leadenhall Market
   // Kensington Palace Gardens
-  // Camden Passage bei Angel
 
 	// OTHER
 	// Harrods
