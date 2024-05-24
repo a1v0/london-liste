@@ -340,12 +340,23 @@ exports.places = [
     location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
+  {
+    slug: "peter-jones-cafe", // leave this blank
+    name: "Café with a view over Chelsea",
+    keyFacts: [
+      "The café/restaurant at the top of Peter Jones in Sloane Square offers an unrivalled view across Chelsea", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "regular café prices",
+    location: "West - Chelsea", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
   // Mercato
   // Brothers
-  // Café oben bei Peter Jones mit coolem Blick
 
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
