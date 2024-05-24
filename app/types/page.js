@@ -35,7 +35,7 @@ export default function PlaceTypes() {
 							>
 								{placeType}
 							</h2>
-							<div className={`px-4`}>
+							<div>
 								{placesOfType.map((place) => {
 									return (
 										<PlaceTile
