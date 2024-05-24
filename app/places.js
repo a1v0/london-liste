@@ -328,11 +328,21 @@ exports.places = [
 		location: "Central - London Bridge / Bermondsey", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
-
+  {
+    slug: "st-mary-aldermary", // leave this blank
+    name: "St Mary Aldermary",
+    keyFacts: [
+      "Café inside a beautiful church right near St Paul's", // at least one fact is mandatory
+      "Enjoy your coffee in wonderful surroundings. The decorated organ and slanted alter wall are interesting", // add more or delete as necessary
+    ],
+    type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "regular café prices",
+    location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
-  // St Mary Aldermary
   // Mercato
   // Brothers
   // Café oben bei Peter Jones mit coolem Blick
