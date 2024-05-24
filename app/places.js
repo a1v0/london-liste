@@ -352,6 +352,42 @@ exports.places = [
     location: "West - Chelsea", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
+  {
+    slug: "", // leave this blank
+    name: "",
+    keyFacts: [
+      "", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "",
+    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
+  {
+    slug: "", // leave this blank
+    name: "",
+    keyFacts: [
+      "", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "",
+    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
+  {
+    slug: "", // leave this blank
+    name: "",
+    keyFacts: [
+      "", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "",
+    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
