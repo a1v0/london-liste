@@ -353,15 +353,16 @@ exports.places = [
     website: ""
   },
   {
-    slug: "", // leave this blank
-    name: "",
+    slug: "admiralty-arch-nose", // leave this blank
+    name: "Brass nose at Admiralty Arch",
     keyFacts: [
-      "", // at least one fact is mandatory
-      "", // add more or delete as necessary
+      "One of London's more eccentric quirks: a nose stuck to a wall", // at least one fact is mandatory
+      "In the northern arch, about 250cm off the ground, is a brass nose", // add more or delete as necessary
+      "That's basically all there is to it: it's just super weird",
     ],
-    type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
-    cost: "",
-    location: "", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "Central - Trafalgar Square", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
   {
@@ -428,7 +429,6 @@ exports.places = [
 	// Lloyd's Building
 	// Leadenhall Market
   // Kensington Palace Gardens
-  // Nase bei der Admiralty Arch
   // Camden Passage bei Angel
 
 	// OTHER
