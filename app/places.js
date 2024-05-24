@@ -81,7 +81,7 @@ exports.places = [
 			"Great food market", // add more or delete as necessary
 			"Walking there for King's Cross is a nice route along the canal",
 		],
-		type: "", // see list of approved types above. Let a1v0 know if you need to add another type.
+		type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
 		cost: "free",
 		location: "North - Camden Town", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
@@ -333,6 +333,9 @@ exports.places = [
 
   // RESTAURANTS
   // St Mary Aldermary
+  // Mercato
+  // Brothers
+  // Café oben bei Peter Jones mit coolem Blick
 
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
@@ -345,6 +348,11 @@ exports.places = [
 	// St John Museum
 	// Duxford (costs money)
   // White Cube Gallery
+  // Freemasons' Hall
+  // Two Temple Place
+  // Wallace Collection
+  // Mithras-Tempel
+  // The Royal institution
 
 	// PARKS
 	// Skygarden
@@ -363,6 +371,8 @@ exports.places = [
 	// Lloyd's Building
 	// Leadenhall Market
   // Kensington Palace Gardens
+  // Nase bei der Admiralty Arch
+  // Camden Passage bei Angel
 
 	// OTHER
 	// Harrods
@@ -371,7 +381,6 @@ exports.places = [
 	// George Harrison Temple
 	// Shree Swaminarayan Hindu Mandir, Neasden
 	// St Albans
-	// Flea Market
 	// Covent Garden
 	// Southend-on-Sea
 	// Billingsgate Market (requires visiting very early in the morning, between midnight and 7am)
