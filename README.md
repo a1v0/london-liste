@@ -50,8 +50,6 @@ That's all there is to it!
 
 ## To-do
 
-0. create instructions for forking and editing data structure
-1. create decent home page
-2. enable multiple categories per item
-3. make the list-view short description of each item be the first bullet point, not the long description
-4. change the way categories work so that they have a display name. Use OOP to achieve this
+1. Create decent home page
+2. Enable multiple categories per item
+3. Change the way categories work so that they have a display name. Use OOP to achieve this

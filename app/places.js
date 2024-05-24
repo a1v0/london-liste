@@ -328,14 +328,72 @@ exports.places = [
 		location: "Central - London Bridge / Bermondsey", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
-
+  {
+    slug: "st-mary-aldermary", // leave this blank
+    name: "St Mary Aldermary",
+    keyFacts: [
+      "Café inside a beautiful church right near St Paul's", // at least one fact is mandatory
+      "Enjoy your coffee in wonderful surroundings. The decorated organ and slanted alter wall are interesting", // add more or delete as necessary
+    ],
+    type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "regular café prices",
+    location: "Central - Bank", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
+  {
+    slug: "peter-jones-cafe", // leave this blank
+    name: "Café with a view over Chelsea",
+    keyFacts: [
+      "The café/restaurant at the top of Peter Jones in Sloane Square offers an unrivalled view across Chelsea", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "regular café prices",
+    location: "West - Chelsea", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
+  {
+    slug: "admiralty-arch-nose", // leave this blank
+    name: "Brass nose at Admiralty Arch",
+    keyFacts: [
+      "One of London's more eccentric quirks: a nose stuck to a wall", // at least one fact is mandatory
+      "In the northern arch, about 250cm off the ground, is a brass nose", // add more or delete as necessary
+      "That's basically all there is to it: it's just super weird",
+    ],
+    type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "Central - Trafalgar Square", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
+  {
+    slug: "camden-passage", // leave this blank
+    name: "Camden Passage (not actually in Camden)",
+    keyFacts: [
+      "A charming, hidden alleyway full of little shops and cafés", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "other", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "various",
+    location: "North - Angel", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
+  {
+    slug: "kensington-palace-gardens", // leave this blank
+    name: "Kensington Palace Gardens",
+    keyFacts: [
+      "London's most expensive and impressive street, full of ambassadors' residences", // at least one fact is mandatory
+      "", // add more or delete as necessary
+    ],
+    type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "Central - Notting Hill", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: ""
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
-  // St Mary Aldermary
   // Mercato
   // Brothers
-  // Café oben bei Peter Jones mit coolem Blick
 
 	// EVENTS
 	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
@@ -370,9 +428,6 @@ exports.places = [
 	// Thames barriers
 	// Lloyd's Building
 	// Leadenhall Market
-  // Kensington Palace Gardens
-  // Nase bei der Admiralty Arch
-  // Camden Passage bei Angel
 
 	// OTHER
 	// Harrods
