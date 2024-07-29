@@ -389,6 +389,18 @@ exports.places = [
     location: "Central - Notting Hill", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
+	  {
+    slug: "freemasons-hall", // leave this blank
+    name: "Freemasons' Hall",
+    keyFacts: [
+      "Beautiful Art Deco building used as a filming location", // at least one fact is mandatory
+      "Contains cool portraits and other stuff in museum", // add more or delete as necessary
+    ],
+    type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "Central - Holborn", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: "https://www.ugle.org.uk/freemasons-hall"
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
