@@ -401,6 +401,17 @@ exports.places = [
     location: "Central - Holborn", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: "https://www.ugle.org.uk/freemasons-hall"
   },
+	  {
+    slug: "white-cube-gallery", // leave this blank
+    name: "White Cube Gallery",
+    keyFacts: [
+      "Modern-art museum with frequently rotating displays", // at least one fact is mandatory
+    ],
+    type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "South - Bermondsey", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: "https://www.whitecube.com/"
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
@@ -418,7 +429,6 @@ exports.places = [
 	// St John Museum
 	// Duxford (costs money)
   // White Cube Gallery
-  // Freemasons' Hall
   // Two Temple Place
   // Wallace Collection
   // Mithras-Tempel
