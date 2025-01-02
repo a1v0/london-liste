@@ -389,6 +389,18 @@ exports.places = [
     location: "Central - Notting Hill", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: ""
   },
+{
+    slug: "ceremony-of-the-keys", // leave this blank
+    name: "Ceremony of the Keys",
+    keyFacts: [
+      "Ancient ceremony at the Tower of London (requires booking months in advance)", // at least one fact is mandatory
+      "Every night, there's a special ceremony at the Tower that's free to enter", // add more or delete as necessary
+    ],
+    type: "event", // see list of approved types above. Let a1v0 know if you need to add another type.
+    cost: "free",
+    location: "Central - Tower Hill", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+    website: "https://www.hrp.org.uk/tower-of-london/whats-on/ceremony-of-the-keys/"
+  },
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
   // RESTAURANTS
@@ -396,7 +408,6 @@ exports.places = [
   // Brothers
 
 	// EVENTS
-	// Ceremony of the Keys (needs to be booked three months in advance, but is free)
 	// Trooping the Colour (just once a year)
 
 	// MUSEUMS
