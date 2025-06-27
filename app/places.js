@@ -412,10 +412,37 @@ exports.places = [
         location: "South - Bermondsey", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
         website: "https://www.whitecube.com/",
     },
+        {
+        slug: "mercato-metropolitano", // leave this blank
+        name: "Mercato Metropolitano",
+        keyFacts: [
+          "Food-court place in an old paper factory near Elephant & Castle", // at least one fact is mandatory
+            "Lots of different stalls offering all manner of food",
+          "Not cheap, but great atmosphere, good fun", // add more or delete as necessary
+            "See also: Mercato Mayfair",
+        ],
+        type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+        cost: "Expensive: ca. £20 for a burger and chips",
+        location: "South - Elephant & Castle", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+        website: "https://mercatometropolitano.com/elephant-castle/"
+    },
+        {
+        slug: "mercato-mayfair", // leave this blank
+        name: "Mercato Mayfair",
+        keyFacts: [
+          "Food-court place in a deconsecrated church", // at least one fact is mandatory
+          "Lots of different stalls offering all manner of food", // add more or delete as necessary
+          "Not cheap, but great atmosphere, good fun", // add more or delete as necessary
+            "See also: Mercato Metropolitano",
+        ],
+        type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+        cost: "Expensive: ca. £20 for a burger and chips",
+        location: "Central - Mayfair", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+        website: "https://mercatometropolitano.com/mercato-mayfair/"
+    },
     // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
     // RESTAURANTS
-    // Mercato
     // Brothers
 
     // EVENTS
