@@ -452,6 +452,18 @@ exports.places = [
     location: "Central - Tower Hill", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
     website: "https://www.hrp.org.uk/tower-of-london/whats-on/ceremony-of-the-keys/"
   },
+	    {
+        slug: "highgate-cemetery", // leave this blank
+        name: "Highgate Cemetery",
+        keyFacts: [
+          "Burial place of many interesting people, incl. Karl Marx and George Michael", // at least one fact is mandatory
+          "", // add more or delete as necessary
+        ],
+        type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
+        cost: "About £4",
+        location: "North - Highgate", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+        website: "https://highgatecemetery.org/"
+    },
     // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
     // RESTAURANTS
