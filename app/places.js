@@ -475,6 +475,18 @@ exports.places = [
         location: "North - Stoke Newington", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
         website: "https://abneypark.org/"
     },
+	    {
+        slug: "postmans-park", // leave this blank
+        name: "Postman's Park",
+        keyFacts: [
+          "Tiny park next to St Paul's with a touching memorial, honouring citizens who died saving the lives of others", // at least one fact is mandatory
+          "Fascinating piece of living history (most memorials are from long ago, but new ones exist)", // add more or delete as necessary
+        ],
+        type: "park", // see list of approved types above. Let a1v0 know if you need to add another type.
+        cost: "free",
+        location: "Central - St Paul's", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+        website: ""
+    },
     // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
     // RESTAURANTS
@@ -502,7 +514,6 @@ exports.places = [
     // Hampstead Heath, especially The Pergola
     // Richmond Park
     // Chislehurst Caves
-    // Postman's Park
 
     // LANDMARKS
     // Alexandra Palace
