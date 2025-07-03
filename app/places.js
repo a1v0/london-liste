@@ -463,6 +463,17 @@ exports.places = [
         cost: "About £4",
         location: "North - Highgate", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
         website: "https://highgatecemetery.org/"
+    },{
+        slug: "abney-park-cemetery", // leave this blank
+        name: "Abney Park Cemetery",
+        keyFacts: [
+          "Dilapidated Victorian cemetery. Spooky, overgrown, mysterious, interesting", // at least one fact is mandatory
+          "", // add more or delete as necessary
+        ],
+        type: "landmark", // see list of approved types above. Let a1v0 know if you need to add another type.
+        cost: "free",
+        location: "North - Stoke Newington", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+        website: "https://abneypark.org/"
     },
     // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
@@ -494,8 +505,6 @@ exports.places = [
     // Postman's Park
 
     // LANDMARKS
-    // Highgate Cemetery
-    // Abney Park Cemetery
     // Alexandra Palace
     // Thames barriers
     // Lloyd's Building
