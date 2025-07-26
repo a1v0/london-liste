@@ -489,6 +489,19 @@ exports.places = [
 		location: "Central - St Paul's", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
+	{
+		slug: "brothers-restaurant", // leave this blank
+		name: "Brothers (Somalian Restaurant)",
+		keyFacts: [
+			"Somalian restaurant where everything is eaten entirely by hand", // at least one fact is mandatory
+			"It's an eccentric place with no menu, where women (and anybody accompanied by a woman) sits behind a curtain", // add more or delete as necessary
+			"Ramadan is strictly observed, so watch out for that",
+		],
+		type: "restaurant", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "Affordably priced",
+		location: "North - Tottenham", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "",
+	},
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
 	// RESTAURANTS
