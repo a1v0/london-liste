@@ -502,6 +502,18 @@ exports.places = [
 		location: "North - Tottenham", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
 		website: "",
 	},
+	{
+		slug: "wallace-collection", // leave this blank
+		name: "The Wallace Collection",
+		keyFacts: [
+			"Museum and armoury with a diverse offering of interesting art and weaponry", // at least one fact is mandatory
+			"Decadent, pre-revolutionary French art, Dutch masters and more, in a handsome gallery setting", // add more or delete as necessary
+		],
+		type: "museum", // see list of approved types above. Let a1v0 know if you need to add another type.
+		cost: "Free",
+		location: "Central - Marylebone", // "[region] - [area]" or "[region] - [Tube stop]". For examples, see above.
+		website: "https://www.wallacecollection.org/",
+	},
 	// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DO NOT PASTE ANYTHING BELOW THIS LINE
 
 	// RESTAURANTS
@@ -517,9 +529,8 @@ exports.places = [
 	// Duxford (costs money)
 	// White Cube Gallery
 	// Two Temple Place
-	// Wallace Collection
 	// Mithras-Tempel
-	// The Royal institution
+	// The Royal Institution
 
 	// PARKS
 	// Skygarden
