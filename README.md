@@ -1,6 +1,6 @@
 # London-Liste
 
-A simple web app to display a1v0's et al. hot tips for London. See the hosted site [here](https://london.a1v0.de/).
+A simple web app to display a1v0's et al. hot tips for London. See the [hosted site](https://london.a1v0.de/).
 
 ## London data
 
@@ -50,6 +50,6 @@ That's all there is to it!
 
 ## To-do
 
-1. Create decent home page
-2. Enable multiple categories per item
-3. Change the way categories work so that they have a display name. Use OOP to achieve this
+0. Create decent home page
+1. Enable multiple categories per item
+2. Change the way categories work so that they have a display name. Use OOP to achieve this
